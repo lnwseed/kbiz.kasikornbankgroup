@@ -1,0 +1,2 @@
+# kbiz.kasikornbankgroup
+api kasikorn
