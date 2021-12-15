@@ -14,7 +14,8 @@
     //Step2
      $res = $kbank->refreshSession();
      //$res = $kbank->getTransactionHistory(""); //โชว์ประวัติการทำรายการต่างๆ
-     //$res = $kbank->getAccountSummaryList(); //โชว์ข้อมูลผู้ใช้ เช่น เลขบัญชี หรือ จำนวนเงินในบัญชี
+     //$res = $kbank->getAccountSummaryList();   //โชว์ข้อมูลผู้ใช้ เช่น เลขบัญชี หรือ จำนวนเงินในบัญชี
+     //$res = $kbank->p2p_PromptPay("xxxxxxx");  //ทำรายการโอนเงินพร้อมเพย์
      print_r($res);
 
 ?>
